@@ -1,0 +1,18 @@
+node_modules/
+src/dist/
+data/
+*.db
+*.db-shm
+*.db-wal
+*.log
+.env
+.env*
+.DS_Store
+
+# ---- 运行/工具数据（不入库）----
+.workbuddy/
+.tmp/
+.tools/
+__pycache__/
+
+# 说明：本项目按需求上传图片，.shots/ 内的图片一并纳入版本库。

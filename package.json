@@ -1,0 +1,35 @@
+{
+  "name": "deep-research-report",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "深度调研报告生成器：自动拆解问题、联网取证、多角度论证、产出可溯源的专业报告",
+  "scripts": {
+    "dev": "vite",
+    "api": "node server/index.js",
+    "build": "vite build",
+    "serve": "node server/index.js",
+    "probe": "node server/tools/probe.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "fast-xml-parser": "^4.5.1",
+    "iconv-lite": "^0.6.3",
+    "marked": "^15.0.6",
+    "multer": "^2.0.1",
+    "pinia": "^3.0.1",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  },
+  "optionalDependencies": {
+    "@esbuild/win32-x64": "^0.25.12",
+    "@rollup/rollup-win32-x64-msvc": "^4.64.0"
+  }
+}
